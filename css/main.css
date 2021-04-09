@@ -12,7 +12,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
@@ -27,8 +26,8 @@ header {
   grid-template-columns: auto 10em auto;
   grid-auto-rows: auto 1.5rem;
   grid-template-areas:
-  " left center right"
-  " . center .";
+    " left center right"
+    " . center .";
   margin-bottom: 1.5rem;
 }
 
@@ -52,7 +51,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%
+  height: 100%;
 }
 
 nav a {
@@ -92,7 +91,6 @@ h2 {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-
 section ul {
   list-style-type: none;
   margin: 0;
@@ -111,9 +109,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom"
+    "top"
+    "middle"
+    "bottom";
 }
 
 section h3 {
@@ -153,7 +151,6 @@ section div img {
 section div strong {
   font-weight: normal;
 }
-
 
 footer {
   display: flex;
