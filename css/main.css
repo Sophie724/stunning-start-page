@@ -68,6 +68,53 @@ header {
     font-size: 1.125rem;
   }
 
+  nav a:hover {
+    background-color: #960062;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  main p {
+    font-size: 1.125rem;
+    margin: 0 0 1.5rem;
+  }
+
+  section {
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #afafaf;
+    border-top: 2px solid #afafaf;
+  }
+
+  h2 {
+    margin: 0 0 1.5rem;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+
+
+  section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section ul li {
+    background-color: #ccc;
+    border: 2px solid #afafaf;
+    border-radius: 6px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "top"
+    "middle"
+    "bottom"
+  }
 
 section h3 {
   grid-area: bottom;
@@ -97,56 +144,10 @@ section div {
     font-style: italic;
 }
 
-
 section div img {
   width: 1em;
   height: 1em;
   margin-right: .5;
-}
-
-nav a:hover {
-  background-color: #960062;
-}
-
-main {
-  padding: 0 1rem;
-}
-
-main p {
-  font-size: 1.125rem;
-  margin: 0 0 1.5rem;
-}
-
-
-section {
-  padding: 1.5rem 0;
-  border-bottom: 2px solid #afafaf;
-  border-top: 2px solid #afafaf;
-}
-
-h2 {
-  margin: 0 0 1.5rem;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-
-
-section ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 1fr;
-}
-
-section ul li {
-  background-color: #ccc;
-  border: 2px solid #afafaf;
-  border-radius: 6px;
-
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 section div strong {
@@ -159,6 +160,7 @@ footer {
   justify-content: space-between;
   padding: 1rem;
   font-size:.875rem;
+  align-items: center;
 }
 
 footer a {
